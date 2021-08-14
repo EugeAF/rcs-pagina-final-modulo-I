@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="centro.css">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand logo-container" href="#">
+        <img class="logo-imagen" src="https://i.ibb.co/4sk86bM/Logo1.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+            list="datalistOptions">
+          <button class="btn button" type="submit">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <button type="button" class="btn boton" data-bs-toggle="modal" data-bs-target="#loginModal">
+          <i class="bi bi-person-circle"></i>
+        </button>
+        <button type="button" class="btn boton-carrito" data-bs-toggle="modal" data-bs-target="#carritoModal">
+          <i class="bi bi-cart4"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <div class="imagen">
+          <img src="https://i.ibb.co/yVCkgwh/image.png" class="img-fluid mx-auto d-block " alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--Acordion-->
+  <div class="container border border-warning ">
+    <div class="row">
+
+      <div class="col-11 mt-2 ms-5">
+        <h1>Preguntas frecuentes</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+
+                ¿Como comprar?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Cómo compro</strong>
+                <p><a href="">¿Como Realizo una compra?</a></p>
+                <p><a href="">¿Cómo veo la ubicación de un anuncio?</a></p>
+                <p><a href="">¿Cómo contacto al vendedor?</a></p>
+                <p><a href="">¿Puedo reservar un producto?</a></p>
+                <p><a href="">¿Cuáles son las formas de pago disponibles?</a></p>
+                <p><a href="">¿Debo enviar el comprobante de pago de mi compra?</a></p>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Envios
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Envio de paquetes</strong>
+                <p><a href="">¿Cuál es el costo de envío?</a></p>
+                <p><a href="">¿Cómo puedo saber si mi barrio está dentro del envío express?</a></p>
+                <p><a href="">¿Puedo elegir en qué horario recibir mi producto?</a></p>
+                <p><a href="">¿Puedo hacer varios pedidos por separado y recibirlos juntos en el mismo envío?</a></p>
+                <p><a href="">¿Puedo retirar mi compra personalmente?</a></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Garantia
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+
+                <Strong>Garantia y Devoluciones</Strong>
+                <p><a href="">Garantías, cambios y devoluciones</a></p>
+                <p><a href="">Si devuelvo o rechazo un producto ¿Cuándo realizan la devolución de lo abonado?</a></p>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Mi cuenta
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Problemas con mi cuenta</strong>
+                <p><a href="#">¿Qué sucede si olvido mi contraseña?</a></p>
+                <p><a href="#">¿Por qué mi cuenta se encuentra bloqueada?</a></p>
+
+                <strong>Registro / Creación de cuenta</strong>
+                <p><a href="">Cómo crear una cuenta </a></p>
+                <p><a href=""> Cómo crear un buen perfil</a></p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FOOTER-->
+  <footer class="mt-3">
+    <div class="container bottom_border">
+      <div class="row">
+        <div class="col-sm-4 col-md col-sm-4 col-12 col">
+          <h5 class="headin5_amrc col_white_amrc pt2">Contacto</h5>
+          <p><i class="fa fa-phone"></i>+54-(381)1234567</p>
+          <p><i class="fa fa fa-envelope"></i>contacto@example.com</p>
+        </div>
+        ​
+        <div class="col-sm-4 col-md col-6 col">
+          <h5 class="headin5_amrc col_white_amrc pt2">Información útil</h5>
+          <ul class="footer_ul_amrc">
+            <li><a href="http://webenlance.com">Centro de Ayuda</a></li>
+            <li><a href="http://webenlance.com">Medios de Pago</a></li>
+            <li><a href="http://webenlance.com">Preguntas Frecuentes</a></li>
+            <li><a href="../PAGINA 4/aboutus.html">Quienes somos</a></li>
+            <li><a href="http://webenlance.com">Sugerencias</a></li>
+          </ul>
+        </div>
+        ​
+        <div class="col-sm-4 col-md col-12 col">
+          <h5 class="headin5_amrc col_white_amrc pt2">Ofertas</h5>
+          <p class="mb-4">
+            Dejanos tu mail para recibir las mejores ofertas que tenemos para
+            vos
+          </p>
+          <div class="p-1 rounded border">
+            <div class="input-group">
+              <input type="email" placeholder="Ingresa tu direccion de correo" aria-describedby="button-addon1"
+                class="form-control border-0 shadow-0" />
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link">
+                  <i class="fa fa-paper-plane"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    ​
+    <div class="container pb-1">
+      <ul class="foote_bottom_ul_amrc">
+        <li><a href="#">Trabajá con nosotros </a></li>
+        <li><a href="../Terminos y condiciones/terminos.html">Términos y condiciones</a></li>
+        <li><a href="#">Cómo cuidamos tu privacidad</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Avisos legales</a></li>
+      </ul>
+      <p class="text-center">
+        Copyright @2021| Designed With by <a href="#">Grupo 2</a>
+      </p>
+      ​
+      <ul class="social_footer_ul">
+        <li>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
